@@ -1,0 +1,12 @@
+#root {
+  display: flex;
+  height: 100vh;
+}
+
+.gridCont {
+  grid-template-columns: 2fr 1fr;
+}
+
+.ratingsCont::-webkit-scrollbar {
+  width: 6px;
+}

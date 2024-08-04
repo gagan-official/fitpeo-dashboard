@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5;
+  font-weight: 400; */
+
+  /* color-scheme: light dark; */
+
+  --themeColor: #7394fd;
+
+  --color: rgba(255, 255, 255, 0.637);
+  --colorRGB: 255, 255, 255;
+  --bgColor: #141316;
+
+  --compsBg: #1f2029;
+  --compsBgHigh: #2b2c369d;
+  --iconsBg: #44464a;
+  --inputBg: #292b2f;
+  --percentUp: #0cc28e;
+  --percentDown: #e65057;
+  --percentUpRGB: 12, 194, 142;
+  --percentDownRGB: 230, 80, 87;
+  --ratingRGB: 249, 219, 39;
+
+  background-color: var(--bgColor);
+  color: var(--color);
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+body {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+path.MuiPieArc-root {
+  stroke: none;
+}
+
+div.css-42val2-MuiPopper-root-MuiChartsTooltip-root > *,
+div.apexcharts-tooltip.apexcharts-theme-dark {
+  background-color: var(--compsBgHigh);
+  backdrop-filter: blur(10px);
+}
+div.apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-title {
+  background-color: #12131ac2;
+}
+div.css-42val2-MuiPopper-root-MuiChartsTooltip-root td {
+  color: #ffffff !important;
+}
+/* div.apexcharts-tooltip.apexcharts-theme-dark {
+  backdrop-filter: blur(10px);
+} */
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
