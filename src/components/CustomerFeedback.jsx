@@ -1,7 +1,7 @@
 import { FaStar } from "react-icons/fa";
-import { custFeedbackData } from "../assets/data/CustFeedbackData";
 import Card from "./Card";
 import NameAvatar from "./NameAvatar";
+import { custFeedbackData } from "../data/CustFeedbackData";
 
 export default function CustomerFeedback() {
   const totalRating = [1, 2, 3, 4, 5];

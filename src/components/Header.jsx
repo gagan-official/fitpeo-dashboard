@@ -24,7 +24,7 @@ function Header() {
             key={id}
             title={title}
             className={className ?? iconClass(title)}
-            src={className && "../src/assets/user.jpg"}
+            src={className && "assets/user.jpg"}
             alt={className && "user"}
             style={{ cursor: "pointer" }}
           >

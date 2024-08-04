@@ -63,7 +63,7 @@ const OptionComp = ({ src, text, bgColor }) => {
       <div className="flex gap-4 items-center">
         <img
           className={`w-[4.5rem] h-[4.5rem] p-[1.45rem] rounded-full ${bgColor}`}
-          src={`../src/assets/icons/${src}.png`}
+          src={`assets/icons/${src}.png`}
           alt="options"
         />
         <span className="text-xl">{text}</span>
@@ -98,7 +98,7 @@ const optionsData = [
 
 const infoCardData = [
   {
-    imgSrc: "../src/assets/icons/orders.png",
+    imgSrc: "assets/icons/orders.png",
     imgColor: "#293368",
     title: "Total Orders",
     totalNum: "75",
@@ -106,7 +106,7 @@ const infoCardData = [
     id: 1,
   },
   {
-    imgSrc: "../src/assets/icons/delivered.png",
+    imgSrc: "assets/icons/delivered.png",
     imgColor: "#145347",
     title: "Total Delivered",
     totalNum: "70",
@@ -114,7 +114,7 @@ const infoCardData = [
     id: 2,
   },
   {
-    imgSrc: "../src/assets/icons/cancelled.png",
+    imgSrc: "assets/icons/cancelled.png",
     imgColor: "#613339",
     title: "Total Cancelled",
     totalNum: "05",
@@ -122,7 +122,7 @@ const infoCardData = [
     id: 3,
   },
   {
-    imgSrc: "../src/assets/icons/revenue.png",
+    imgSrc: "assets/icons/revenue.png",
     imgColor: "#5f2c4c",
     title: "Total Revenue",
     totalNum: "$12k",

@@ -50,7 +50,7 @@ path.MuiPieArc-root {
   stroke: none;
 }
 
-div.css-42val2-MuiPopper-root-MuiChartsTooltip-root > *,
+div.MuiPopper-root[role="tooltip"] > *,
 div.apexcharts-tooltip.apexcharts-theme-dark {
   background-color: var(--compsBgHigh);
   backdrop-filter: blur(10px);
@@ -58,7 +58,7 @@ div.apexcharts-tooltip.apexcharts-theme-dark {
 div.apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-title {
   background-color: #12131ac2;
 }
-div.css-42val2-MuiPopper-root-MuiChartsTooltip-root td {
+div.MuiPopper-root[role="tooltip"] td {
   color: #ffffff !important;
 }
 /* div.apexcharts-tooltip.apexcharts-theme-dark {

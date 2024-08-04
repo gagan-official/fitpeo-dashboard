@@ -34,7 +34,7 @@ function Sidebar() {
 
 const sideBarIcons = [
   {
-    icon: <img src="../src/assets/logo.png" className="w-8" alt="" />,
+    icon: <img src="assets/logo.png" className="w-8" alt="" />,
     title: "Home",
     nonActive: true,
   },
